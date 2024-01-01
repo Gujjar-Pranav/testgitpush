@@ -15,7 +15,10 @@ d = {
 
 d4 = {"car":"hyndai","bike":"yamaha","plane":"vistara"}
 
+d5 = {"car":"toyota","bike":"honda","plane":"airindia"}
+
 mdb = client['mongodbsetup_1']
 coll = mdb['test']
 coll.insert_one(d)
 coll.insert_one(d4)
+coll.insert_one(d5)
