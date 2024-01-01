@@ -10,12 +10,11 @@ print(db)
 d = {
     "name": "Pranav",
     "surname": "Gujjar",
-    "email_id": "pranav1329@gmail.com"
-}
+    "email_id": "pranav1329@gmail.com"}
 
-d4 = {"car":"hyndai","bike":"yamaha","plane":"vistara"}
+d4 = {"car": "hyndai", "bike": "yamaha", "plane": "vistara"}
 
-d5 = {"car":"toyota","bike":"honda","plane":"airindia"}
+d5 = {"car": "toyota", "bike": "honda", "plane": "airindia"}
 
 mdb = client['mongodbsetup_1']
 coll = mdb['test']

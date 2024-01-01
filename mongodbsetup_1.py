@@ -13,9 +13,7 @@ except Exception as e:
     print(e)
 """
 
-d2= {"name": "Pranav",
-     "surname": "Gujjar",
-     "email_id": "pranav1329@gmail.com"
+d2 = {"name": "Pranav", "surname": "Gujjar", "email_id": "pranav1329@gmail.com"
 }
 
 mdb1 = client['mongodbsetup_1']
